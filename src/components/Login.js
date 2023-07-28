@@ -32,12 +32,14 @@ function Login({ setIsLoggedIn }) {
         name="username"
         value={formData.username}
         onChange={handleChange}
+        placeholder="Username"
       />
       <input
         type="password"
         name="password"
         value={formData.password}
         onChange={handleChange}
+        placeholder="Password"
       />
       <button type="submit">Login</button>
     </form>
